@@ -1,0 +1,8 @@
+type: material
+name: water melon
+description: watermelon
+cost: 3
+flammability: 0
+radioactivity: 0
+color: 88d817
+research: copper

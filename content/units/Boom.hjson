@@ -1,0 +1,40 @@
+type: legs
+name: Boom
+description: Boom
+speed: 1.2
+drag: 0.3
+hitsize: 5
+rotatespeed: 3
+commandLimit: 4
+health: 100
+legCount: 4
+legMoveSpace: 1
+legPairOffset: 1
+legLength: 4
+legBaseOffset: 4
+landShake: 0.1
+legSpeed: 0.2
+allowLegStep: true
+visualElevation: 0.65
+research: Unara
+weapons: [
+{
+  name: Boom-weapon
+  x: 0
+  y: 0
+  shootY: 0
+  reload: 10
+  ejectEffect: none
+  mirror: false
+  recoil: 0
+  rotate: false
+  shootSound: flame
+  bullet: {
+    range: 1
+	type: BasicBulletType
+	killShooter: true
+	instantDisappear: true
+	splashDamage: 220
+	splashDamageRadius: 100
+	}
+}]

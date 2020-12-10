@@ -1,0 +1,54 @@
+type: legs
+name: Unura
+description: A small and fast 4 legged unit
+health: 130
+speed: 0.7
+mechSideSway: 0.25
+hitsize: 5
+rotateSpeed: 3
+armor: 0.5
+canBoost: false
+landShake: 0.1
+commandLimit: 4
+legCount: 4
+legLength: 8
+legTrns: 1.5
+legMoveSpace: 1
+legBaseOffset: 2
+hovering: false
+buildSpeed: 1
+allowLegStep: true
+visualElevation: 0.4
+ammoTypes: powerHigh
+mechStepShake: 0.15
+mechStepParticles: true
+speed: 1
+mechSideSway: 0.25
+research: crawler
+weapons: [
+{
+  name: Unura-weapon
+  x: 0
+  y: -1.5
+  shootY: 3
+  reload: 25
+  ejectEffect: none
+  mirror: false
+  recoil: 1
+  rotate: false
+  shootSound: flame
+  bullet: {
+    type: MissileBulletType
+    bulletWidth: 5
+	bulletHeight: 5
+	damage: 80
+	homingPower: 0.1
+	homingRange: 70
+	lifetime: 100
+    speed: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnEffect: none
+    knockback: 1.24
+	}
+}]

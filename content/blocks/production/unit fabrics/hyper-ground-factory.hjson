@@ -1,0 +1,24 @@
+name: FFX Special Ground factory
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: Boom
+    requirements: [
+      silicon/20
+      pyratite/10
+    ]
+    time: 550
+  }
+]
+requirements: [
+  copper/50
+  lead/140
+  silicon/70
+  metaglass/30
+]
+category: units
+research: ground-factory

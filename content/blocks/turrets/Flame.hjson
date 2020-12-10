@@ -1,0 +1,34 @@
+name: Flame
+type: itemTurret
+requirements: [
+silicon/200
+copper/300
+lead/150
+]
+ammoTypes: {
+  coal : {
+	type: LaserBulletType
+    length: 220
+    damage: 100
+    width: 10
+    shootEffect: none
+    colors: [d5b2ed, 9671b1, a17dcd]
+  }
+  pyratite: {
+	type: LaserBulletType
+	length: 220
+	damage: 200
+	width: 20
+	shootEffect: none
+	color: [d5b2ed, 9671b1, a17dcd]
+  }
+}
+reloadTime: 90
+shots: 1
+burstSpacing: 3
+inaccuracy: 0.2
+range: 230
+size: 3
+health: 2500
+research: arc
+category: turret

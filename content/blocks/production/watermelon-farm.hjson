@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Watermelon Farm
+description: Make Watermelon
+health: 200
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect: none
+updateEffect: none 
+consumes: {
+  power:1
+    items:{
+     items:[
+	  coal/2
+      ]
+   }
+}
+requirements: [
+  copper/20
+  silicon/30
+  graphite/20
+]
+category: crafting
+research: mechanical-pump
+idleSound: none
+idleSoundVolume: 0.3
+outputItem: water-melon/1

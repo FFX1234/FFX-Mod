@@ -1,0 +1,62 @@
+type: legs
+name: Nuna
+description: A bigger version of Unara with better unara missle
+speed: 0.4
+drag: 0.3
+hitsize: 10
+rotatespeed: 5
+health: 210
+buildSpeed: 0.7
+legCount: 6
+legMoveSpace: 2
+legPairOffset: 2
+legLength: 10
+legExtension: 2
+legBaseOffset: 8
+landShake: 0.1
+legSpeed: 0.2
+legLengthScl: 1
+rippleScale: 2
+legSplashDamage: 5
+legSplashRange: 5
+legSplashDamage: 32
+legSplashRange: 30
+allowLegStep: true
+visualElevation: 0.65
+research: Unara
+weapons: [
+{
+  name: Nuna-weapon
+  x: 8
+  y: 0
+  shootY: 3
+  reload: 25
+  ejectEffect: none
+  mirror: true
+  recoil: 1
+  rotate: true
+  shootSound: flame
+  bullet: {
+    type: MissileBulletType
+    damage: 10
+	homingPower: 0.1
+	homingRange: 70
+	lifetime: 100
+    speed: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnEffect: none
+    knockback: 1.24
+	fragBullet: {
+		type: LaserBulletType
+		length: 20
+		damage: 50
+		hitColor: e88ec9
+		color: e88ec9
+		despawnEffect: none
+		width: 10
+		lifetime: 35
+		knockback: 1.24
+	}
+	}
+}]

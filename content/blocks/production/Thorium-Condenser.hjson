@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Thorium Condenser
+description: Condense thorium by vaporising scrap using pyrtite
+health: 200
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect: melting
+updateEffect: fire
+consumes: {
+  power: 5
+    items:{
+     items:[
+      scrap/5
+	  blast-compound/2
+      ]
+   }
+}
+requirements: [
+  titanium/120
+  metaglass/120
+  silicon/180
+  graphite/200
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.3
+outputItem: thorium/1

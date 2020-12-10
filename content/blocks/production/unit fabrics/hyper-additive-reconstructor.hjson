@@ -1,0 +1,26 @@
+name: FFX Special Additive Reconstructor
+type: Reconstructor
+size: 3
+consumes: {
+  power: 3
+  items: {
+    items: [
+    silicon/40
+    graphite/20
+    ]
+  }
+}
+constructTime: 500
+requirements: [
+  copper/200
+  titanium/120
+  silicon/90
+  metaglass/30
+]
+upgrades: [
+  [
+    Boom, Unara
+  ]
+]
+category: units
+research: additive-reconstructor

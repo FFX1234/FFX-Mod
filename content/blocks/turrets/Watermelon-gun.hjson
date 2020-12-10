@@ -1,0 +1,32 @@
+name: Watermelon Gun
+type: itemTurret
+requirements: [
+silicon/200
+water-melon/300
+lead/150
+]
+ammoTypes: {
+  water-melon: {
+	type: ArtilleryBulletType
+	lifetime: 120
+	speed: 3
+	bulletWidth: 7
+	bulletHeight: 10
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	color: [d5b2ed, 9671b1, a17dcd]
+	splashDamageRadius: 70
+	targetAir: false
+	splashDamage: 100
+	bulletSprite: water-melon
+  }
+}
+reloadTime: 70
+shots: 1
+burstSpacing: 3
+inaccuracy: 1
+range: 300
+size: 3
+health: 500
+research: duo
+category: turret

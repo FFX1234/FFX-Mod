@@ -1,0 +1,31 @@
+type: mech
+name: Lightning
+speed: 0.3
+health: 300
+range: 48
+armor: 3
+weapons: [
+    {
+        name: Lightning-weapon
+        top: true
+        shake: 1.5
+        shootY: 5
+        reload: 30
+        shots: 2
+        inaccuracy: 18
+        shotDelay: 0.75
+        spacing: 0
+        recoil: 1.5
+        ejectEffect: none
+        shootSound: spark
+        bullet: {
+            type: LightningBulletType
+            damage: 30
+            lightningLength: 10
+            lightningLengthRand: 8
+            lightningColor: 4b5ce2
+            lightning: 3
+        }
+    }
+]
+research: Spark

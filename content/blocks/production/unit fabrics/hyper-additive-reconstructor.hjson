@@ -6,7 +6,7 @@ consumes: {
   items: {
     items: [
     silicon/40
-    graphite/20
+    metaglass/20
     ]
   }
 }
@@ -21,6 +21,9 @@ upgrades: [
   [
     Boom, Unara
   ]
+  [
+	Spark, Lightning
+  ]
 ]
 category: units
-research: additive-reconstructor
+research: hyper-ground-factory

@@ -1,0 +1,75 @@
+type: legs
+name: Blaze
+speed: 0.2
+drag: 0.3
+hitSize: 20
+rotatespeed: 5
+health: 1200	
+buildSpeed: 0.7
+legCount: 4
+legMoveSpace: 4
+legPairOffset: 4
+legLength: 16
+legExtension: 3
+legBaseOffset: 5
+landShake: 0.4
+legSpeed: 1
+legLengthScl: 1
+allowLegStep: true
+visualElevation: 0.8
+research: Nuna
+weapons: [
+{
+	name: Blaze-lancer
+	x: 0
+	y: 4
+	shootY: 3
+	reload: 30
+	ejectEffect: none
+	mirror: false
+	recoil: 1
+	rotate: false
+	shootSound: flame
+	bullet: {
+		type: LaserBulletType
+		damage: 200
+		lenght: 500
+		lifetime: 90
+		shootEffect: greenLaserChargeSmall
+		healPercent: 15 
+		collidesTeam: true
+		lightningColor: 7990f3
+		sideAngle: 15
+		sideWidth: 0
+		sideLength: 0
+		colors: [47c2e1, 5d93a0, 3a5b63]
+		}
+}
+{
+	name: Blaze-weapon
+	x: 10
+	y: -2
+	shootY: 3
+	reload: 40
+	ejectEffect: none
+	recoil: 5
+	rotate: true
+	shootSound: flame
+	bullet: {
+		type: MissileBulletType
+		bulletWidth: 10
+		bulletHeight: 10
+		splashDamage: 100
+		damage: 50
+		splashDamageRadius: 10
+		homingPower: 0.1
+		homingRange: 70
+		lifetime: 110
+		speed: 2
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		despawnEffect: none
+		knockback: 1.24
+		}
+	}
+]

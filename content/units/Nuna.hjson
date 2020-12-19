@@ -3,7 +3,7 @@ name: Nuna
 description: A bigger version of Unara with better unara missle
 speed: 0.4
 drag: 0.3
-hitsize: 10
+hitSize: 10
 rotatespeed: 5
 health: 210
 buildSpeed: 0.7

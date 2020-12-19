@@ -1,6 +1,6 @@
-name: "FFX's Mod"
-displayName: "[#f1d26e]FFX's Mod"
-author: "[#d99f6b]FFX"
-description: "[#f7ea72]My Mod"
-version: "1.4"
-minGameVersion: "105"
+name: FFX's Mod
+displayName: FFX's Mod
+author: FFX
+description: My Mod
+version: 1.4
+minGameVersion: 105

@@ -1,0 +1,31 @@
+name: Storm
+type: itemTurret
+requirements: [
+silicon/75
+titanium/60
+lead/45
+]
+ammoTypes: {
+  graphite: {
+	type: ArtilleryBulletType
+	lifetime: 120
+	speed: 2
+	bulletWidth: 12
+	bulletHeight: 12
+	shootEffect: shootBig2
+	smokeEffect: shootBigSmoke2
+	damage: 33
+	splashDamage: 33
+	bulletSprite: shell-back
+	splashDamageRadius: 20
+  }
+}
+reloadTime: 55
+shots: 2
+burstSpacing: 3
+inaccuracy: 10
+range: 250
+size: 2
+health: 500
+research: hail
+category: turret

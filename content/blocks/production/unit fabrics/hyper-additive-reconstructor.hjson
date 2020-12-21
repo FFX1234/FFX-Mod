@@ -10,7 +10,7 @@ consumes: {
     ]
   }
 }
-constructTime: 500
+constructTime: 800
 requirements: [
   copper/200
   titanium/120

@@ -4,14 +4,22 @@ size: 3
 consumes: {
   power: 2
 }
-plans: [
-  {
+plans:[
+{
     unit: Boom
     requirements: [
       silicon/20
       pyratite/10
     ]
-    time: 550
+}
+{
+	unit: Spark
+	requirements: [
+      silicon/20
+      graphite/15
+	  copper/10
+	]
+	time: 700
   }
 ]
 requirements: [

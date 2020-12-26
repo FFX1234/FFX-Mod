@@ -22,6 +22,9 @@ upgrades: [
   [
     Unara, Nuna
   ]
+  [
+	Lightning, Sheld
+  ]
 ]
 category: units
 research: hyper-additive-reconstructor

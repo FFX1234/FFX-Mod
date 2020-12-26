@@ -1,0 +1,36 @@
+type: mech
+name: Sheld
+speed: 0.3
+health: 650
+range: 120
+rotateSpeed: 2.85
+weapons: [
+    {
+        name: electric-small-shotgun1
+        top: true
+        shake: 2.2
+        shootY: 5
+        x: 9
+        y: 2
+        reload: 30
+        shots: 2
+        inaccuracy: 35
+        shotDelay: 0.5
+        spacing: 0
+        recoil: 2.5
+        ejectEffect: none
+        shootSound: beam
+        bullet: {
+			type: ContinuousLaserBulletType
+			lifetime: 128
+			damage: 2
+			hitColor: 8AA3F4
+			colors:[09cffa, 0a89a4, 05404c]
+			lightColor: 0a89a4
+			length: 200
+			width: 5
+			shake: 0.25
+			knockback: -5
+        }
+    }
+research: Lightning

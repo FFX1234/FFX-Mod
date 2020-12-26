@@ -21,16 +21,16 @@ weapons: [
         ejectEffect: none
         shootSound: beam
         bullet: {
-		type: ContinuousLaserBulletType
-		lifetime: 128
-		damage: 2
-		hitColor: 8AA3F4
-		colors:[09cffa, 0a89a4, 05404c]
-		lightColor: 0a89a4
-		length: 200
-		width: 5
-		shake: 0.25
-		knockback: -5
+	   type: ContinuousLaserBulletType
+	   lifetime: 128
+	   damage: 4
+	   hitColor: 8AA3F4
+	   colors:[09cffa, 0a89a4, 05404c]
+	   lightColor: 0a89a4
+	   length: 200
+	   width: 5
+	   shake: 0.25
+	   knockback: -5
         }
     }
 research: Lightning

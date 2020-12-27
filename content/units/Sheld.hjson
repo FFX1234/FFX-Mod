@@ -6,15 +6,13 @@ range: 120
 rotateSpeed: 2.85
 weapons: [
     {
-        name: electric-small-shotgun1
+        name: Sheld-weapon
         top: true
         shake: 2.2
         shootY: 5
         x: 9
         y: 2
         reload: 30
-        shots: 2
-        inaccuracy: 35
         shotDelay: 0.5
         spacing: 0
         recoil: 2.5

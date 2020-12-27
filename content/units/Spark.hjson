@@ -8,16 +8,14 @@ weapons: [
         top: false
         x: 4
         y: 2
-        shootSound: spark
+        shootSound: lasershoot
 		inaccuracy: 18
 		reload: 40
         bullet: {
-            type: LightningBulletType
-            damage: 10
-            lightningLength: 8
-            lightningLengthRand: 7
-            lightningColor: 4b5ce2
-            lightning: 2
+            type: LaserBoltBulletType
+            damage: 30
+			speed: 4
+			knockback: 0.3
 			}
 	}
 ]

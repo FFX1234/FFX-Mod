@@ -33,4 +33,5 @@ weapons: [
 	      knockback: -5
         }
     }
+]
 research: Lightning

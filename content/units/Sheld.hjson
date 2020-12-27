@@ -25,7 +25,7 @@ weapons: [
 	      lifetime: 128
 	      damage: 4
 	      hitColor: 09cffa
-	      colors:[09cffa, 0a89a4, 05404c]
+	      colors: [09cffa, 0a89a4, 05404c]
 	      lightColor: 0a89a4
 	      length: 200
 	      width: 5

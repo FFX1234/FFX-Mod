@@ -1,4 +1,4 @@
-name: Watermelon Gun
+name: Ohno
 type: itemTurret
 requirements: [
 silicon/200
@@ -6,28 +6,33 @@ water-melon/300
 lead/150
 ]
 ammoTypes: {
-  water-melon: {
+  lead: {
 	type: ArtilleryBulletType
 	lifetime: 120
 	speed: 3
-	bulletWidth: 7
-	bulletHeight: 10
+	width: 15
+	height: 15
 	shootEffect: shootSmall
 	smokeEffect: shootSmallSmoke
 	color: [d5b2ed, 9671b1, a17dcd]
-	splashDamageRadius: 70
-	targetAir: false
-	splashDamage: 100
-	sprite: water-melon
+	damage: 120
+	fragBullet: 4
+	fragBullet: {
+		type: BasicBulletType
+		speed: 2
+		damage: 30
+		width: 4
+		height: 4
+		lifetime: 20
+	}
   }
 }
-shootSound: bang
 reloadTime: 70
 shots: 1
 burstSpacing: 3
 inaccuracy: 1
 range: 300
-size: 3
+size: 1
 health: 500
 research: duo
 category: turret

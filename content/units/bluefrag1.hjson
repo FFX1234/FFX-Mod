@@ -1,0 +1,33 @@
+type: flying
+flying: true
+speed: 1.8
+name: Bluefrag1
+accel: 0.08
+drag: 0.01
+health: 85
+engineOffset: 3
+range: 140
+research: flare
+weapons: [
+{
+  name: Bolt-weapon
+  x: -0.2
+  y: 0
+  shootY: 0.2
+  reload: 50
+  ejectEffect: none
+  mirror: false
+  recoil: 0.5
+  rotate: true
+  shootSound: laser
+  bullet: {
+    length: 65
+	width: 12
+	type: LaserBoltBulletType
+	damage: 75
+	hitColor: 4cecff
+	colors:[4cecff, FFFFFF]
+	shootEffect: shootSmall	
+	speed: 2
+	}
+}]

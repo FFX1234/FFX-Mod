@@ -1,0 +1,49 @@
+type: legs
+name: Heresy
+description: AaAaAaAa
+health: 1200
+speed: 0.3
+mechSideSway: 0.25
+hitsize: 15
+rotateSpeed: 1.8
+armor: 0.5
+landShake: 1
+commandLimit: 3
+legCount: 6
+legLength: 70
+legTrns: 1.2
+legMoveSpace: 2
+legBaseOffset: 3
+hovering: true
+allowLegStep: true
+visualElevation: 1
+ammoTypes: powerHigh
+mechStepShake: 0.15
+mechStepParticles: true
+speed: 0.6
+research: crawler
+weapons: [
+{
+  name: ibis-weapon
+  x: 3
+  y: -1.5
+  shootY: 3
+  reload: 30
+  ejectEffect: none
+  recoil: 1
+  rotate: true
+  shootSound: flame
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.8
+    length: 70
+    damage: 300
+    shootEffect: shootSmall
+    hitColor: e88ec9
+    color: e88ec9
+    despawnEffect: none
+    width: 1
+    lifetime: 35
+    knockback: 1.24
+  }
+}]

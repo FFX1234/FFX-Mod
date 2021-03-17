@@ -1,0 +1,29 @@
+name: Bolt
+description: A turret that shoot healing laser bolts
+type: PowerTurret
+requirements: [
+graphite/50
+copper/30
+lead/15
+]
+shootType: {
+	type: LaserBoltBulletType
+	damage: 50
+	speed: 4
+	knockback: 0.6
+	backColor: 24f56d
+    frontColor: ffffff
+	healPercent: 5
+	collidesTeam: true
+}
+shootSound: lasershoot
+reloadTime: 40
+shots: 1
+burstSpacing: 3
+inaccuracy: 0.2
+range: 210
+size: 2
+health: 2500
+research: arc
+category: turret
+details: The turret is the predecessor of the nova gun, it is the first of it kind. The turret is the third oldest power turret
